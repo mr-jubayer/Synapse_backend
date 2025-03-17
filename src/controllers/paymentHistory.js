@@ -11,6 +11,8 @@ const paymentHistory = (req, res) => {
     package: paymentInfo.package,
   });
 
+  result.save();
+
   res.send({ success: true, result });
 };
 
