@@ -2,7 +2,7 @@ import cors from "cors";
 import express from "express";
 import { globalError } from "./global_error.js";
 
-const CLIENT_SIDE_URL = "http://localhost:5173";
+const CLIENT_SIDE_URL = "https://synapse-776a2.web.app";
 
 const applyMiddlewares = (app) => {
   app.use(
